@@ -1,0 +1,13 @@
+header, footer {
+    background-color: rgb(24, 151, 75);
+}
+
+#sectionNav {
+   text-align: center;
+   display: inline
+}
+
+.sectionMain {
+    padding: 20px;
+    background-color: rgb(138, 205, 165)
+}
