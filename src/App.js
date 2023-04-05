@@ -1,26 +1,36 @@
 //import dependencies
 import './App.css';
 import Header from './components/Header';
-import Navigation from './components/Navigation';
 import Project from './components/Project';
 import Footer from './components/Footer';
 
-//return component contents as app
+//full render
 function App() {
     return (
-        <header>
-            <Header />
-        </header>,
-        <section className='navigation'>
-            <Navigation />
-        </section>,
-        <section className='project'>
-            <Project />
-        </section>,
-        <footer>
-            <Footer />
-        </footer>
-    )
+        <section>
+            <header>
+                <Header />
+            </header>
+            <section className='sectionMain'>
+                <section id='sectionAboutMe'>
+                    <p>About me page</p>
+                </section>
+                <section id='sectionPortfolio' className='d-none'>
+                    <p>Portfolio page</p>
+                    <Project />
+                </section>
+                <section id='sectionContact' className='d-none'>
+                    <p>Contact page</p>
+                </section>
+                <section id='sectionResume' className='d-none'>
+                    <p>Resume page</p>
+                </section>
+            </section>
+            <footer>
+                <Footer />
+            </footer>
+        </section>
+    );
 }
 
 export default App;
