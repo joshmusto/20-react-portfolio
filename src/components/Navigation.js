@@ -28,12 +28,12 @@ function Navigation() {
         document.getElementById('sectionResume').classList.remove('d-none');
     }
     return (
-        <nav id='sectionNav' classList=''>
-            <h4 classList='navButton' onClick={() => loadAboutMe()}>About Me</h4>
-            <h4 classList='navButton' onClick={() => loadPortfolio()}>Portfolio</h4>
-            <h4 classList='navButton' onClick={() => loadContact()}>Contact</h4>
-            <h4 classList='navButton' onClick={() => loadResume()}>Resume</h4>
-        </nav>
+        <section id='sectionNav' className='d-block'>
+            <h4 className='navButton d-inline-block' onClick={() => loadAboutMe()}>About Me</h4>
+            <h4 className='navButton d-inline-block' onClick={() => loadPortfolio()}>Portfolio</h4>
+            <h4 className='navButton d-inline-block' onClick={() => loadContact()}>Contact</h4>
+            <h4 className='navButton d-inline-block' onClick={() => loadResume()}>Resume</h4>
+        </section>
     );
 }
 

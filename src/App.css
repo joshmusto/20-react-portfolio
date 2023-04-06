@@ -1,13 +1,37 @@
-header, footer {
+header {
     background-color: rgb(24, 151, 75);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sectionHeader {
+    height: 50px;
+    padding: 20px 0 20px 20px;
+    text-align: center;
 }
 
 #sectionNav {
+   padding: 5px;
    text-align: center;
-   display: inline
+   text-justify: center;
+}
+
+.navButton {
+    padding: 10px;
+}
+.navButton:hover {
+    border-radius: 5px;
+    background-color: rgb(138, 205, 165);
 }
 
 .sectionMain {
+    height: auto;
     padding: 20px;
     background-color: rgb(138, 205, 165)
+}
+
+footer {
+    padding: 10px;
+    min-height: 90vh;
+    text-align: center;
+    background-color: rgb(138, 205, 165);
 }
