@@ -28,7 +28,7 @@ function Navigation() {
         document.getElementById('sectionResume').classList.remove('d-none');
     }
     return (
-        <section id='sectionNav' className='d-block'>
+        <section id='sectionNav'>
             <h4 className='navButton d-inline-block' onClick={() => loadAboutMe()}>About Me</h4>
             <h4 className='navButton d-inline-block' onClick={() => loadPortfolio()}>Portfolio</h4>
             <h4 className='navButton d-inline-block' onClick={() => loadContact()}>Contact</h4>
