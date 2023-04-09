@@ -1,3 +1,7 @@
+body {
+    height: auto;
+}
+
 header {
     background-color: rgb(24, 151, 75);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -5,11 +9,12 @@ header {
 
 .sectionHeader {
     height: 50px;
-    padding: 20px 0 20px 20px;
+    padding: 20px 0 40px 0;
     text-align: center;
 }
 
 #sectionNav {
+   display: block;
    padding: 5px;
    text-align: center;
    text-justify: center;
@@ -29,9 +34,41 @@ header {
     background-color: rgb(138, 205, 165)
 }
 
-footer {
-    padding: 10px;
-    min-height: 90vh;
+.sectionPortfolioItem {
+    display:block;
     text-align: center;
-    background-color: rgb(138, 205, 165);
+    background-color: rgb(179, 231, 201);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto 20px auto;
+    max-width: 800px;
+}
+.portfolioImage {
+    width: 80vw;
+    max-width: 700px;
+    border-radius: 10px;
+    margin-top: 8px;
+    opacity: 70%;
+}
+.portfolioImage:hover {
+    opacity: 100%;
+    width: 81vw;
+    max-width: 710px;
+}
+.logoHyperlink {
+    opacity: 50%;
+    width: 10vw;
+    max-width: 80px;
+    margin: 10px 0 0 0;
+}
+.logoHyperlink:hover {
+    opacity: 100%;
+    width: 11vw;
+    max-width: 85px;
+}
+
+footer {
+    padding: 0 0 10px 0;
+    text-align: center;
+    background-color: rgb(24, 151, 75)
 }

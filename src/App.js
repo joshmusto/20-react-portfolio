@@ -16,8 +16,6 @@ function App() {
                     <p>About me page</p>
                 </section>
                 <section id='sectionPortfolio' className='d-none'>
-                    <p>Portfolio page</p>
-                    <Project />
                     <Project />
                 </section>
                 <section id='sectionContact' className='d-none'>
