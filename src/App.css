@@ -22,16 +22,40 @@ header {
 
 .navButton {
     padding: 10px;
+    border-radius: 5px;
+    margin: 0 5px 10px 5px;
 }
 .navButton:hover {
-    border-radius: 5px;
+    background-color: rgb(138, 205, 165);
+}
+.navButtonSelected {
     background-color: rgb(138, 205, 165);
 }
 
 .sectionMain {
     height: auto;
+    min-height: 70vh;
     padding: 20px;
     background-color: rgb(138, 205, 165)
+}
+
+.sectionCard {
+    display: block;
+    background-color: rgb(179, 231, 201);
+    border-radius: 20px;
+    padding: 20px 20px 10px 20px;
+    margin: 0 auto 0 auto;
+    max-width: 800px;
+}
+
+#aboutMeCard{
+    display: inline-block;
+    margin: auto 20vw auto 20vw;
+}
+.headshot{
+    float: right;
+    width: 30%;
+    margin: auto auto 10px auto;
 }
 
 .sectionPortfolioItem {
@@ -65,6 +89,41 @@ header {
     opacity: 100%;
     width: 11vw;
     max-width: 85px;
+}
+
+.contactInput {
+    margin: 0 0 10px 0;
+}
+.contactInputMessage {
+    height: 200px;
+    width: 100%;
+    resize: none;
+}
+#sectionContactThanks {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.resumeTitleColumn {
+    font-weight: bold;
+    border-right: 2px solid rgb(24, 151, 75);
+}
+td {
+    padding: 10px;
+}
+.resumeRowBottom {
+    border-bottom: 2px solid rgb(24, 151, 75);
+    padding-bottom: 10px;
+}
+#buttonDownloadResume {
+    background-color:white;
+    border-radius: 5px;
+    border-color:rgb(138, 205, 165);
+    border-style: solid;
+}
+#buttonDownloadResume:hover {
+    background-color:rgb(179, 231, 201);
+    border-color:rgb(24, 151, 75);
 }
 
 footer {
