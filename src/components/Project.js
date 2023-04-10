@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import screenshot1 from '../assets/screenshotNoCrudeFood.png';
 import screenshot2 from '../assets/screenshotWeatherDashboard.PNG';
 import screenshot3 from '../assets/screenshotDailyPlanner.png';
