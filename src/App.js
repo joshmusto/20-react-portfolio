@@ -32,7 +32,6 @@ function App() {
                             <br/>
                             I'm an animator turned programmer who attended Columbia University's coding bootcamp. I have a passion for problem-solving that drives my motivation to code, and my artistic background gives me insight about design and presentation that not every other programmer has.
                         </p>
-                        
                     </section>
                 </section>
                 <section id='sectionPortfolio' className='d-none'>
@@ -71,76 +70,8 @@ function App() {
                     </form>
                 </section>
                 <section id='sectionResume' className='d-none'>
-                    <section className='sectionCard'>
-                        <table>
-                            <tr>
-                                <td className='resumeTitleColumn resumeRowBottom'>Profile</td>
-                                <td className='resumeRowBottom '>Programmer, software developer, artist</td>
-                            </tr>
-                            <tr>
-                                <td className='resumeTitleColumn'>Previous Work</td>
-                            </tr>
-                            <tr>
-                                <td className='resumeTitleColumn'>November 2022 - May 2023</td>
-                                <td >Facilities Associate
-                                    <br/><br/>
-                                    Worked with a team to manage a multi-floor facility to assure impressive quality and presentation
-                                </td>
-                            </tr>
-                            <tr>
-                                <td className='resumeTitleColumn resumeRowBottom'>June 2022 - August 2022</td>
-                                <td className='resumeRowBottom'>A2AC Art Camp Assistant Instructor, Lead Instructor
-                                    <br/><br/>
-                                    Instructor and supervisor of campers in various age groups and skill levels
-                                    <br/>
-                                    Managed teaching assistants to increase effectiveness and quality of lessons
-                                </td>
-                            </tr>
-                            <tr>
-                                <td className='resumeTitleColumn resumeRowBottom'>Known Skills, Languages, and Software</td>
-                                <td className='resumeRowBottom'>Communication
-                                    <br/>
-                                    Organization
-                                    <br/>
-                                    Project management
-                                    <br/>
-                                    Team cooperation
-                                    <br/>
-                                    Learning new skills
-                                    <br/>
-                                    MERN Stack
-                                    <br/>
-                                    JavaScript
-                                    <br/>
-                                    Project management
-                                    <br/>
-                                    Team cooperation
-                                    <br/>
-                                    Learning new skills
-                                </td>
-                            </tr>
-                            <tr>
-                                <td className='resumeTitleColumn'>Education</td>
-                            </tr>
-                            <tr>
-                                <td className='resumeTitleColumn'>2022 - 2023</td>
-                                <td>Coding Bootcamp
-                                    <br/><br/>
-                                    Hosted by Columbia University
-                                    <br/>
-                                    Excelled in 6-month remote instruction 
-                                </td>
-                            </tr>
-                            <tr>
-                                <td className='resumeTitleColumn'>2017 - 2021</td>
-                                <td>Bachelor of Fine Arts in Animation
-                                    <br/><br/>
-                                    Graduated Summa Cum Laude from DePaul University
-                                    <br/>
-                                    Concentration in Storyboarding and Character Design
-                                </td>
-                            </tr>
-                        </table>
+                    <section className='sectionCard sectionCardResume'>
+                        <object data={resume} width="100%" height="100%"> </object>
                         <a href={resume} download='resume'>
                             <button id='buttonDownloadResume'>Download as PDF</button>
                         </a>
