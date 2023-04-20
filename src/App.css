@@ -34,7 +34,7 @@ header {
 
 .sectionMain {
     height: auto;
-    min-height: 70vh;
+    min-height: 80vh;
     padding: 20px;
     background-color: rgb(138, 205, 165)
 }
@@ -49,8 +49,8 @@ header {
 }
 
 #aboutMeCard{
-    display: inline-block;
-    margin: auto 20vw auto 20vw;
+    padding-bottom: 90px;
+    margin: auto auto auto auto;
 }
 .headshot{
     float: right;
@@ -104,16 +104,9 @@ header {
     margin-bottom: 10px;
 }
 
-.resumeTitleColumn {
-    font-weight: bold;
-    border-right: 2px solid rgb(24, 151, 75);
-}
-td {
-    padding: 10px;
-}
-.resumeRowBottom {
-    border-bottom: 2px solid rgb(24, 151, 75);
-    padding-bottom: 10px;
+.sectionCardResume {
+    height: 1000px;
+    padding-bottom: 50px;
 }
 #buttonDownloadResume {
     background-color:white;
