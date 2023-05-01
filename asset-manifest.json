@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/20-react-portfolio/static/css/main.71e57cd8.css",
-    "main.js": "/20-react-portfolio/static/js/main.565a98f1.js",
+    "main.js": "/20-react-portfolio/static/js/main.51228761.js",
     "static/media/screenshotNoCrudeFood.png": "/20-react-portfolio/static/media/screenshotNoCrudeFood.41602801c93471952405.png",
+    "static/media/screenshotDigitalGarage.PNG": "/20-react-portfolio/static/media/screenshotDigitalGarage.c73c3eae1be9cbf6a805.PNG",
     "static/media/headshot.jpg": "/20-react-portfolio/static/media/headshot.deb7cb112de4a7d84c86.jpg",
     "static/media/screenshotSocialMediaAPI.png": "/20-react-portfolio/static/media/screenshotSocialMediaAPI.413d7c3db05ed7a2f47f.png",
     "static/media/screenshotWeatherDashboard.PNG": "/20-react-portfolio/static/media/screenshotWeatherDashboard.1b3b8eb9672b89e05bca.PNG",
@@ -14,10 +15,10 @@
     "static/media/linkedinLogo.png": "/20-react-portfolio/static/media/linkedinLogo.0efa3847a20821b552e7.png",
     "index.html": "/20-react-portfolio/index.html",
     "main.71e57cd8.css.map": "/20-react-portfolio/static/css/main.71e57cd8.css.map",
-    "main.565a98f1.js.map": "/20-react-portfolio/static/js/main.565a98f1.js.map"
+    "main.51228761.js.map": "/20-react-portfolio/static/js/main.51228761.js.map"
   },
   "entrypoints": [
     "static/css/main.71e57cd8.css",
-    "static/js/main.565a98f1.js"
+    "static/js/main.51228761.js"
   ]
 }
