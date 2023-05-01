@@ -5,6 +5,7 @@ import screenshot3 from '../assets/screenshotDailyPlanner.png';
 import screenshot4 from '../assets/screenshotPWATextEditor.PNG';
 import screenshot5 from '../assets/screenshotSocialMediaAPI.png';
 import screenshot6 from '../assets/screenshotCodingQuiz.PNG';
+import screenshot7 from '../assets/screenshotDigitalGarage.PNG';
 import githubLogo from '../assets/githubLogo.png';
 
 function Project() {
@@ -15,6 +16,7 @@ function Project() {
         { title: 'PWA Text Editor', image: screenshot4, link: 'https://aqueous-meadow-77400.herokuapp.com/', repo: 'https://github.com/joshmusto/19-PWA-text-editor' },
         { title: 'Social Media API', image: screenshot5, link: 'https://github.com/joshmusto/18-social-network-api', repo: 'https://github.com/joshmusto/18-social-network-api' },
         { title: 'Coding Quiz', image: screenshot6, link: 'https://joshmusto.github.io/04-code-quiz/', repo: 'https://github.com/joshmusto/04-code-quiz' },
+        { title: 'Digital Garage', image: screenshot7, link: 'https://intense-waters-77464.herokuapp.com/', repo: 'https://github.com/AlexWiederman/Digital_Garage/tree/redame1' },
     ];
 
     return (
