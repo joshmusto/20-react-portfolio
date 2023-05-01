@@ -41,7 +41,10 @@ function App() {
                     <section id='sectionContactThanks' className='sectionCard d-none'>
                         <p>Thanks for reaching out! I'll get back to you as soon as possible.</p>
                     </section>
-                    <form className='sectionCard' onSubmit={contactSubmit}>
+                    <section className="sectionCard">
+                        <p>Have any questions or just want to get in touch? Please send me an email at <a href="mailto:musto.josh@gmail.com">musto.josh@gmail.com</a></p>
+                    </section>
+                    {/* <form className='sectionCard' onSubmit={contactSubmit}>
                         <h5>Name</h5>
                         <input
                             type='text'
@@ -67,7 +70,7 @@ function App() {
                             type='submit'
                             value='Send'
                         ></input>
-                    </form>
+                    </form> */}
                 </section>
                 <section id='sectionResume' className='d-none'>
                     <section className='sectionCard sectionCardResume'>
